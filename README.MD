@@ -1,6 +1,7 @@
 # Cron İşleri - Yedekleme Komut Dosyaları
 
-Bu repo Açık Kaynak dersi kapsamında hazırlanmıştır.
+Bu repo Açık Kaynak dersi kapsamında hazırlanmıştır.  
+Projede Linux sistemlerde cron job kullanımı ve bash script ile otomatik yedekleme mantığı örneklenmiştir.
 
 ## İçerik
 - Cron job nedir?
@@ -8,10 +9,7 @@ Bu repo Açık Kaynak dersi kapsamında hazırlanmıştır.
 - Cron ile otomatik yedek alma örneği
 
 ## Kullanım
-1. backup.sh dosyasına çalıştırma izni verilir:
-chmod +x backup.sh
 
-2. Cron'a eklenir:
-crontab -e
-
-0 3 * * * /home/kullanici/kaynak/backup.sh
+### Script dosyasına çalıştırma izni verme (örnek)
+```bash
+chmod +x kaynak/backup.sh
