@@ -13,3 +13,4 @@ Projede Linux sistemlerde cron job kullanımı ve bash script ile otomatik yedek
 ### Script dosyasına çalıştırma izni verme (örnek)
 ```bash
 chmod +x kaynak/backup.sh
+Not: Cron yapılandırması sistem bağımlı olduğu için örnek amaçlı gösterilmiştir.
